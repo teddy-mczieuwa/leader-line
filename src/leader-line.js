@@ -3358,6 +3358,8 @@
       curStats: {}, aplStats: {}, attachments: [], events: {}, reflowTargets: []
     };
 
+    console.log('props: ', props)
+
     initStats(props.curStats, STATS);
     initStats(props.aplStats, STATS);
     Object.keys(EFFECTS).forEach(function(effectName) {
