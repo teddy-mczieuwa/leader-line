@@ -47,5 +47,9 @@
   "author": {
     "name": "anseki",
     "url": "https://github.com/anseki"
+  },
+  "dependencies": {
+    "leader-line": "github:teddy-mczieuwa/leader-line",
+    "uninstall": "^0.0.0"
   }
 }

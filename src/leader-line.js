@@ -847,8 +847,13 @@
   window.newDropShadow = newDropShadow; // [DEBUG/]
 
   function initStats(container, statsConf) {
+    
     Object.keys(statsConf).forEach(function(statName) {
       var statConf = statsConf[statName];
+      console.log('statConfig: ', statsConf)
+      console.log('container: ', container)
+      // console.log('statConfig: ', statConf)
+      // console.log('statConfig: ', statConf)
       container[statName] =
         statConf.iniValue != null ? (
           statConf.hasSE ? [statConf.iniValue, statConf.iniValue] : statConf.iniValue
